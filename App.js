@@ -1,14 +1,15 @@
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import { Text, SafeAreaView, StyleSheet, View, StatusBar, Platform } from 'react-native';
-
+import react from 'react';
+import { Searchbar } from react - native - paper;
 
 const isAndroid = Platform.OS === 'android';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <View style={styles.searchContainer}>
-        <Text style={styles.text}>Search</Text>
+      <View style={styles.search}>
+        <Searchbar />
       </View>
       <View style={styles.listContainer}>
         <Text style={styles.text}>List</Text>
@@ -33,6 +34,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'blue',
   },
   text: {
-    color: 'white', // Optional: Improves readability on colored backgrounds
+    color: 'white',
   },
 });

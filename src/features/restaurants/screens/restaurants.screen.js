@@ -1,22 +1,25 @@
 import React from 'react';
-import { Text, SafeAreaView, StyleSheet, View, StatusBar, Platform } from 'react-native';
+import { SafeAreaView, StatusBar, Platform } from 'react-native';
 import { Searchbar } from 'react-native-paper';
+import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
+import styled from 'styled-components/native';
 import { RestaurantInfoCard } from '../components/restaurant-info-card.components';
 
+
+const isAndroid = Platform.OS === 'android';
+
 const SafeArea = styled(SafeAreaView)`
-    flex: 1;
-    margin-top: ${StatusBar.currentHeight}px;
+  flex: 1;
+  margin-top: ${isAndroid ? `${StatusBar.currentHeight || 0}px` : '0'};
 `;
 
 const SearchContainer = styled.View`
-    padding:16px;
+  padding: ${(props) => props.theme.space[3]};
 `;
 
 const RestaurantListContainer = styled.View`
-    flex:1;
-    padding: 16px;
-    background-color:blue;
-
+  flex: 1;
+  padding: ${(props) => props.theme.space[3]};
 `;
 
 export const RestaurantsScreen = () => (
@@ -27,6 +30,6 @@ export const RestaurantsScreen = () => (
         <RestaurantListContainer>
             <RestaurantInfoCard />
         </RestaurantListContainer>
-
+        <ExpoStatusBar style="auto" />
     </SafeArea>
 );

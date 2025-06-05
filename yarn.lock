@@ -864,6 +864,16 @@
     "@eslint/core" "^0.14.0"
     levn "^0.4.1"
 
+"@expo-google-fonts/lato@^0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/lato/-/lato-0.4.0.tgz#fbfe75ee98614d1bf2394adb8e1d61fa2ca6da20"
+  integrity sha512-UjaKhO+NmZ4VXo7eBKX+jFxJeOXmECrmHGx5wbPR4lesVo+NKiyqjTnfZCddQ9KJX+1lN4gPo/REma/a72fwqw==
+
+"@expo-google-fonts/oswald@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/oswald/-/oswald-0.4.1.tgz#faccdbb5bd8dee0b34ed4f36b3a690d164934b0a"
+  integrity sha512-8VReHRXSvPU/UnTByqjbgh3jRLDwJ4DJr4OtJc6YPPGgYnd3LIEqPnFummKxCLu0aWdC3SChWgXptWkArV+0xQ==
+
 "@expo/cli@0.24.14":
   version "0.24.14"
   resolved "https://registry.yarnpkg.com/@expo/cli/-/cli-0.24.14.tgz#af2e7ea5a08e3574e868cb0ec2110e68d32672e0"

@@ -1,26 +1,22 @@
-import { Text, SafeAreaView, StyleSheet } from 'react-native';
+import { StatusBar } from 'expo-status-bar';
+import { Text, SafeAreaView, StyleSheet, Platform, View } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Text style={styles.paragraph}>
-        #MealsToGo
-      </Text>
-    </SafeAreaView>
+    <>
+      <SafeAreaView style={{ flex: 1 }}>
+        <View style={{ padding: 16, backgroundColor: 'green' }}>
+          <Text>search</Text>
+        </View>
+        <View> style={{ flex: 1, backgroundColor: 'blue', padding: 16 }}
+          <Text>List</Text>
+        </View>
+      </SafeAreaView>
+      <StatusBar style='auto' />
+    </>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    backgroundColor: '#ecf0f1',
-    padding: 8,
-  },
-  paragraph: {
-    margin: 24,
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
+
 });

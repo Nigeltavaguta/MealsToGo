@@ -14,7 +14,7 @@ export default function App() {
       <View style={styles.listContainer}>
         <Text style={styles.text}>List</Text>
       </View>
-      <ExpoStatusBar style="auto" />
+      <ExpoStatusBar style="auto" /npx expo start --tunnel>
     </SafeAreaView>
   );
 }

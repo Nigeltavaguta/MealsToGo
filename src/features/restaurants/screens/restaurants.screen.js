@@ -6,8 +6,6 @@ import styled from 'styled-components/native';
 import { RestaurantInfoCard } from '../components/restaurant-info-card.component';
 import { SafeArea } from '../../../components/utility/safe-area.component';
 
-const isAndroid = Platform.OS === 'android';
-
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};

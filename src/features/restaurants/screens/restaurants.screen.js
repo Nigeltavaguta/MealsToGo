@@ -3,8 +3,7 @@ import { SafeAreaView, StatusBar, Platform } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import styled from 'styled-components/native';
-import { RestaurantInfoCard } from '../components/restaurant-info-card.components';
-
+import { RestaurantInfoCard } from '../components/restaurant-info-card.component';
 
 const isAndroid = Platform.OS === 'android';
 

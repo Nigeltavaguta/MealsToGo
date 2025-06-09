@@ -1,11 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { SafeAreaView, StatusBar, Platform, FlatList } from 'react-native';
 import { Searchbar } from 'react-native-paper';
 import { StatusBar as ExpoStatusBar } from 'expo-status-bar';
 import styled from 'styled-components/native';
 import { RestaurantInfoCard } from '../components/restaurant-info-card.component';
 import { SafeArea } from '../../../components/utility/safe-area.component';
-
+import { RestaurantsContext } from '../../../services/restaurants/restaurant.context';
 
 const SearchContainer = styled.View`
   padding: ${(props) => props.theme.space[3]};
@@ -16,16 +16,19 @@ const RestaurantList = styled(FlatList).attrs({
   },
 })``;
 
-export const RestaurantsScreen = () => (
-  <SafeArea>
-    <SearchContainer>
-      <Searchbar placeholder="Search" />
-    </SearchContainer>
-    <RestaurantList
-      data={[{ name: 1 }, { name: 2 }, { name: 3 }, { name: 4 }, { name: 5 }, { name: 6 }, { name: 7 }, { name: 8 }, { name: 9 }, { name: 10 }]}
-      renderItem={() => <RestaurantInfoCard />}
-      keyExtractor={(item) => item.name}
-    />
-    <ExpoStatusBar style="auto" />
-  </SafeArea>
-);
+export const RestaurantsScreen = () => {
+  const restaurantsContext = useContext(RestaurantsContext);
+  return (
+    <SafeArea>
+      <SearchContainer>
+        <Searchbar placeholder="Search" />
+      </SearchContainer>
+      <RestaurantList
+        data={restaurantsContext.restaurants}
+        renderItem={() => <RestaurantInfoCard />}
+        keyExtractor={(item) => item.name}
+      />
+      <ExpoStatusBar style="auto" />
+    </SafeArea >
+  )
+};

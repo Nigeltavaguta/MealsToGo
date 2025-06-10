@@ -7,10 +7,8 @@ import { View } from "react-native";
 import { RestaurantInfoCard } from '../components/restaurant-info-card.component';
 import { SafeArea } from '../../../components/utility/safe-area.component';
 import { RestaurantsContext } from '../../../services/restaurants/restaurant.context';
+import { Search } from '../components/search.component';
 
-const SearchContainer = styled.View`
-  padding: ${(props) => props.theme.space[3]};
-`;
 const RestaurantList = styled(FlatList).attrs({
   contentContainerStyle: {
     padding: 16,
@@ -27,7 +25,6 @@ const LoadingContainer = styled(View)`
   left: 50%;
 `;
 
-
 export const RestaurantsScreen = () => {
   const { isLoading, error, restaurants } = useContext(RestaurantsContext);
   return (
@@ -40,9 +37,7 @@ export const RestaurantsScreen = () => {
           />
         </LoadingContainer>
       )}
-      <SearchContainer>
-        <Searchbar placeholder="Search" />
-      </SearchContainer>
+      <Search />
       <RestaurantList
         data={restaurants}
         renderItem={({ item }) => {

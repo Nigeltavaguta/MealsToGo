@@ -1,0 +1,81 @@
+{
+  "html_attributions": [],
+  "next_page_token": "some_token",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.9243,
+          "lng": 25.8412
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.9143,
+            "lng": 25.8512
+          },
+          "southwest": {
+            "lat": -17.9343,
+            "lng": 25.8312
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "The Boma - Dinner & Drum Show",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "victoria_falls_place_1",
+      "rating": 4.8,
+      "reference": "",
+      "user_ratings_total": 520,
+      "vicinity": "Victoria Falls Safari Lodge, Victoria Falls"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.9300,
+          "lng": 25.8300
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.9200,
+            "lng": 25.8400
+          },
+          "southwest": {
+            "lat": -17.9400,
+            "lng": 25.8200
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Lookout Café",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "victoria_falls_place_2",
+      "rating": 4.6,
+      "reference": "",
+      "user_ratings_total": 390,
+      "vicinity": "Victoria Falls, Zimbabwe"
+    }
+  ],
+  "status": "OK"
+}

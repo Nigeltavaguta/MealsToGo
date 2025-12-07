@@ -1,0 +1,121 @@
+{
+  "html_attributions": [],
+  "next_page_token": "some_token",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -20.1325,
+          "lng": 28.5822
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -20.1225,
+            "lng": 28.5922
+          },
+          "southwest": {
+            "lat": -20.1425,
+            "lng": 28.5722
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Bulawayo Club Restaurant",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "bulawayo_place_1",
+      "rating": 4.3,
+      "reference": "",
+      "user_ratings_total": 210,
+      "vicinity": "8th Avenue, Bulawayo"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -20.1400,
+          "lng": 28.5700
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -20.1300,
+            "lng": 28.5800
+          },
+          "southwest": {
+            "lat": -20.1500,
+            "lng": 28.5600
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Hillside Dams Tea Room",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "bulawayo_place_2",
+      "rating": 4.5,
+      "reference": "",
+      "user_ratings_total": 180,
+      "vicinity": "Hillside, Bulawayo"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -20.1550,
+          "lng": 28.5950
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -20.1450,
+            "lng": 28.6050
+          },
+          "southwest": {
+            "lat": -20.1650,
+            "lng": 28.5850
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "The Chalet Restaurant",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "bulawayo_place_3",
+      "rating": 4.7,
+      "reference": "",
+      "user_ratings_total": 95,
+      "vicinity": "Suburbs, Bulawayo"
+    }
+    
+  ],
+
+  "status": "OK"
+
+}

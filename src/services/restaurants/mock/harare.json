@@ -1,0 +1,266 @@
+{
+  "html_attributions": [],
+  "next_page_token": "some_token",
+  "results": [
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8292,
+          "lng": 31.0489
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8200,
+            "lng": 31.0600
+          },
+          "southwest": {
+            "lat": -17.8400,
+            "lng": 31.0400
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "The Bistro @ Meikles Hotel",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_1",
+      "rating": 4.5,
+      "reference": "",
+      "user_ratings_total": 450,
+      "vicinity": "Third Street, Harare CBD, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8172,
+          "lng": 31.0548
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8100,
+            "lng": 31.0650
+          },
+          "southwest": {
+            "lat": -17.8250,
+            "lng": 31.0450
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Spiceburgers - Eastgate",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_2",
+      "rating": 4.2,
+      "reference": "",
+      "user_ratings_total": 320,
+      "vicinity": "Eastgate Shopping Mall, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8000,
+          "lng": 31.0242
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.7900,
+            "lng": 31.0350
+          },
+          "southwest": {
+            "lat": -17.8100,
+            "lng": 31.0150
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Amanzi Restaurant",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_3",
+      "rating": 4.7,
+      "reference": "",
+      "user_ratings_total": 280,
+      "vicinity": "1 Lanark Road, Avondale, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8150,
+          "lng": 31.0420
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8050,
+            "lng": 31.0520
+          },
+          "southwest": {
+            "lat": -17.8250,
+            "lng": 31.0320
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Pariah State",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_4",
+      "rating": 4.3,
+      "reference": "",
+      "user_ratings_total": 195,
+      "vicinity": "1 Dorset Road, Alexandra Park, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8300,
+          "lng": 31.0350
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8200,
+            "lng": 31.0450
+          },
+          "southwest": {
+            "lat": -17.8400,
+            "lng": 31.0250
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Gava's Restaurant",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_5",
+      "rating": 4.0,
+      "reference": "",
+      "user_ratings_total": 420,
+      "vicinity": "Samora Machel Avenue, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8400,
+          "lng": 31.0250
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8300,
+            "lng": 31.0350
+          },
+          "southwest": {
+            "lat": -17.8500,
+            "lng": 31.0150
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "Chick Inn",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_6",
+      "rating": 4.1,
+      "reference": "",
+      "user_ratings_total": 510,
+      "vicinity": "Mbare Musika, Harare"
+    },
+    {
+      "business_status": "OPERATIONAL",
+      "geometry": {
+        "location": {
+          "lat": -17.8100,
+          "lng": 31.0300
+        },
+        "viewport": {
+          "northeast": {
+            "lat": -17.8000,
+            "lng": 31.0400
+          },
+          "southwest": {
+            "lat": -17.8200,
+            "lng": 31.0200
+          }
+        }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+      "name": "The Smokehouse",
+      "opening_hours": {
+        "open_now": true
+      },
+      "photos": [
+        {
+          "height": 400,
+          "html_attributions": [],
+          "photo_reference": "",
+          "width": 600
+        }
+      ],
+      "place_id": "harare_place_7",
+      "rating": 4.4,
+      "reference": "",
+      "user_ratings_total": 380,
+      "vicinity": "2 Downie Avenue, Belgravia, Harare"
+    }
+  ],
+  "status": "OK"
+}

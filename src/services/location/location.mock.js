@@ -1,78 +1,175 @@
 export const locations = {
-    antwerp: {
+    harare: {
         results: [
             {
                 geometry: {
                     location: {
-                        lng: 4.402464,
-                        lat: 51.219448,
+                        lng: 31.053028,  // Harare, Zimbabwe
+                        lat: -17.825166,
                     },
                     viewport: {
                         northeast: {
-                            lat: 51.2145994302915,
-                            lng: 4.418074130291502,
+                            lat: -17.770000,  // Northern bounds of Harare
+                            lng: 31.150000,
                         },
                         southwest: {
-                            lat: 51.2119014697085,
-                            lng: 4.415376169708497,
+                            lat: -17.900000,  // Southern bounds of Harare
+                            lng: 30.950000,
                         },
                     },
                 },
             },
         ],
     },
-    "san francisco": {
+    bulawayo: {
         results: [
             {
                 geometry: {
-                    location: { lat: 37.7749295, lng: -122.4194155 },
+                    location: {
+                        lng: 28.582190,  // Bulawayo, Zimbabwe
+                        lat: -20.132507,
+                    },
                     viewport: {
-                        northeast: { lat: 37.812, lng: -122.3482 },
-                        southwest: { lat: 37.70339999999999, lng: -122.527 },
+                        northeast: {
+                            lat: -20.100000,  // Northern bounds
+                            lng: 28.650000,
+                        },
+                        southwest: {
+                            lat: -20.200000,  // Southern bounds
+                            lng: 28.520000,
+                        },
                     },
                 },
             },
         ],
         status: "OK",
     },
-    chicago: {
+    victoria_falls: {
         results: [
             {
                 geometry: {
                     location: {
-                        lng: -87.629799,
-                        lat: 41.878113,
+                        lng: 25.841200,  // Victoria Falls, Zimbabwe
+                        lat: -17.924300,
                     },
                     viewport: {
                         northeast: {
-                            lat: 41.88758823029149,
-                            lng: -87.6194830697085,
+                            lat: -17.850000,  // Northern bounds (towards Zambia)
+                            lng: 25.900000,
                         },
                         southwest: {
-                            lat: 41.88489026970849,
-                            lng: -87.6221810302915,
+                            lat: -18.000000,  // Southern bounds
+                            lng: 25.750000,
                         },
                     },
                 },
             },
         ],
     },
-    toronto: {
+    mutare: {
         results: [
             {
                 geometry: {
                     location: {
-                        lng: -79.383186,
-                        lat: 43.653225,
+                        lng: 32.649860,  // Mutare, Zimbabwe
+                        lat: -18.970700,
                     },
                     viewport: {
                         northeast: {
-                            lat: 43.64794098029149,
-                            lng: -79.37325551970848,
+                            lat: -18.920000,  // Northern bounds
+                            lng: 32.700000,
                         },
                         southwest: {
-                            lat: 43.6452430197085,
-                            lng: -79.37595348029149,
+                            lat: -19.020000,  // Southern bounds
+                            lng: 32.600000,
+                        },
+                    },
+                },
+            },
+        ],
+    },
+    gweru: {
+        results: [
+            {
+                geometry: {
+                    location: {
+                        lng: 29.799999,  // Gweru, Zimbabwe
+                        lat: -19.450000,
+                    },
+                    viewport: {
+                        northeast: {
+                            lat: -19.400000,
+                            lng: 29.850000,
+                        },
+                        southwest: {
+                            lat: -19.500000,
+                            lng: 29.750000,
+                        },
+                    },
+                },
+            },
+        ],
+    },
+    masvingo: {
+        results: [
+            {
+                geometry: {
+                    location: {
+                        lng: 30.827200,  // Masvingo, Zimbabwe
+                        lat: -20.066000,
+                    },
+                    viewport: {
+                        northeast: {
+                            lat: -20.000000,
+                            lng: 30.900000,
+                        },
+                        southwest: {
+                            lat: -20.150000,
+                            lng: 30.750000,
+                        },
+                    },
+                },
+            },
+        ],
+    },
+    kariba: {
+        results: [
+            {
+                geometry: {
+                    location: {
+                        lng: 28.800000,  // Kariba, Zimbabwe
+                        lat: -16.516700,
+                    },
+                    viewport: {
+                        northeast: {
+                            lat: -16.450000,  // Lake Kariba area
+                            lng: 28.900000,
+                        },
+                        southwest: {
+                            lat: -16.600000,
+                            lng: 28.700000,
+                        },
+                    },
+                },
+            },
+        ],
+    },
+    hwange: {
+        results: [
+            {
+                geometry: {
+                    location: {
+                        lng: 27.000000,  // Hwange, Zimbabwe
+                        lat: -18.366700,
+                    },
+                    viewport: {
+                        northeast: {
+                            lat: -18.300000,  // Hwange National Park area
+                            lng: 27.100000,
+                        },
+                        southwest: {
+                            lat: -18.450000,
+                            lng: 26.900000,
                         },
                     },
                 },
